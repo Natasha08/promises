@@ -1,4 +1,3 @@
-
 "use strict";
 
 const expect = require('chai').expect;
@@ -24,7 +23,7 @@ describe('es6 promises', function() {
         return myPromise.then(function(data){
           console.log("data", data);
           expect(data).to.eql( { id: "ExternalId" } );
-        });  
+        });
     });
 
     it("does not become evergreen", function () {
