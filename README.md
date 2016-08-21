@@ -6,7 +6,10 @@ sudo npm install -g mocha
 <code>
 npm install
 </code><br />
-Use of 'return' when testing the promise seems to prevent the evergreen test.
+<code>
+npm test
+</code><br />
+Use of 'return' when testing the promise seems to prevent the evergreen test, and handle the asynchronous call.
 Also stubbing not spying.
 
 <br />

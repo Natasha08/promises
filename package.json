@@ -1,16 +1,26 @@
 {
   "name": "promises",
   "version": "1.0.0",
-  "description": "testing es6 promises with react and mocha/chai",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "Testing es6 promises with mocha",
+  "main": "promise.js",
   "dependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.5.3",
     "sinon": "^1.17.5"
-  }
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha promise"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natasha08/promises.git"
+  },
+  "author": "natasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natasha08/promises/issues"
+  },
+  "homepage": "https://github.com/Natasha08/promises#readme"
 }
